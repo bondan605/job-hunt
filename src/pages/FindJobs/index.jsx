@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
+
+import LandingPageTemplate from "../../components/templates/LandingPageTemplate";
 
 export default function FindJobs() {
-  return (
-    <div>Halaman FindJobs</div>
-  )
+	return <LandingPageTemplate>Halaman Find Jobs</LandingPageTemplate>;
 }
