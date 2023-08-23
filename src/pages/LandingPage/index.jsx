@@ -8,6 +8,7 @@ import Testimony from "../../components/organisms/Testimony";
 import Category from "../../components/organisms/Category";
 import BannerSignUp from "../../components/organisms/BannerSignUp";
 import FeaturedJobs from "../../components/organisms/FeaturedJobs";
+import LatestJobs from "../../components/organisms/LatestJobs";
 
 const { Title } = Typography;
 
@@ -32,6 +33,7 @@ export default function LandingPage() {
       <Category />
       <BannerSignUp />
       <FeaturedJobs />
+      <LatestJobs />
     </LandingPageTemplate>
   );
 }

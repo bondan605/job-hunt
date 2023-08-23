@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function JobItem({
   logo,
@@ -9,8 +10,9 @@ export default function JobItem({
   desc,
   categories,
 }) {
+  const navigate = useNavigate();
   return (
-    <div className="featured-item">
+    <div className="featured-item" onClick={() => navigate("/job/detail/1")}>
       <div className="logo-tag">
         <img src={logo} alt={logo} />
         <span className="tag">{jobType}</span>
